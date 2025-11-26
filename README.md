@@ -1,0 +1,1 @@
+# gemini-based-novel-translator
