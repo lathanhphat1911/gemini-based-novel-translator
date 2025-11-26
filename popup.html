@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Translate Tool</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #222; color: white; padding: 10px; width: 300px; }
+    button { padding: 10px; margin: 5px 0; width: 100%; border: none; border-radius: 5px; background: #4CAF50; color: white; font-size: 14px; cursor: pointer; }
+    #status { margin-top: 10px; font-size: 14px; }
+    #progress { margin-top: 5px; width: 100%; background: #555; border-radius: 5px; overflow: hidden; display: none; }
+    #bar { width: 0%; height: 10px; background: #4CAF50; }
+  </style>
+</head>
+<body>
+  <h3>Translate</h3>
+  <button id="scrapeBtn">Start</button>
+  <div id="status">Ready</div>
+  <div id="progress"><div id="bar"></div></div>
+  <script src="popup.js"></script>
+</body>
+</html>
