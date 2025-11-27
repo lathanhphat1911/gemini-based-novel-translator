@@ -1,10 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "Goku Solo Picolo",
-  "description": "Multi Config Selector + Tabs",
-  "version": "5.0",
-  "permissions": ["storage", "scripting", "tabs", "activeTab"],
-  "host_permissions": ["https://*/", "http://*/"],
+  "name": "TExtension",
+  "description": "This only works on Novelbin (for now)",
+  "version": "1.0",
+  "permissions": [
+    "scripting",
+    "tabs",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://*/",
+    "http://*/"
+  ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
